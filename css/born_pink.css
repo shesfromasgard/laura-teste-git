@@ -1,0 +1,48 @@
+@font-face {
+    font-family: PrimeTime;
+    src: url(../fonts/primetime.ttf);
+}
+@font-face {
+    font-family: Sansation;
+    src: url(../fonts/Sansation_Light.ttf);
+}
+body {
+    background-color: #000000;
+}
+header {
+    background-color: #000000;
+    display: block;
+    max-height: 10%;
+    padding-bottom: 8px;
+}
+nav {
+    display: block;
+    text-align: center;
+}
+.menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'PrimeTime';
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.menu:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'PrimeTime';
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px #000000;
+}
+#title_image {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}

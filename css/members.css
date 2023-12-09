@@ -1,0 +1,80 @@
+@font-face {
+    font-family: PrimeTime;
+    src: url(../fonts/primetime.ttf);
+}
+@font-face {
+    font-family: Sansation;
+    src: url(../fonts/Sansation_Light.ttf);
+}
+header {
+    background-color: #ffffff;
+    position: fixed;
+    display: block;
+    max-height: 10%;
+    padding-bottom: 8px;
+}
+nav {
+    display: block;
+    text-align: center;
+}
+.menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'PrimeTime';
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.menu:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'PrimeTime';
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px #000000;
+}
+#title_image {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+article {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Sansation';
+}
+#header {
+    margin-top: 6%;
+}
+.portrait {
+    margin-top: 2%;
+    max-width: 40%;
+}
+#form {
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+}
+.buttom {
+    margin-bottom: 1%;
+}
+.button {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: #d1d3d1;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #000000;
+}
+.button:hover {
+    background-color: #F598AF;
+}

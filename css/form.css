@@ -1,0 +1,114 @@
+@font-face {
+    font-family: PrimeTime;
+    src: url(../fonts/primetime.ttf);
+}
+@font-face {
+    font-family: Sansation;
+    src: url(../fonts/Sansation_Light.ttf);
+}
+header {
+    background-color: #ffffff;
+    position: fixed;
+    display: block;
+    max-height: 10%;
+}
+nav {
+    display: block;
+    text-align: center;
+}
+.menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'PrimeTime';
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.menu:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'PrimeTime';
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px #000000;
+}
+#title_image {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+article {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Sansation';
+}
+form {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Sansation';
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #F598AF;
+    content: '';
+    display: inline-block;
+    border: 2px solid white;
+}
+
+input[type='text'] {
+    width: 750px;
+    height: 18px;
+    border-radius: 5px;
+    background-color: #d1d3d1;
+    display: inline-block;
+    border: 1px solid white;
+}
+input[type='text']:hover {
+    width: 750px;
+    height: 18px;
+    border-radius: 5px;
+    background-color: #d1d3d1;
+    display: inline-block;
+    border: 1px solid #F598AF;
+}
+.button {
+    margin-bottom: 1%;
+}
+#button {
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #d1d3d1;
+    font-family: 'Sansation';
+    font-weight: bolder;
+}
+#button:hover {
+    background-color: #F598AF;
+}

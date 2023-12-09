@@ -1,0 +1,67 @@
+@font-face {
+    font-family: PrimeTime;
+    src: url(../fonts/primetime.ttf);
+}
+@font-face {
+    font-family: Sansation;
+    src: url(../fonts/Sansation_Light.ttf);
+}
+header {
+    background-color: #ffffff;
+    position: fixed;
+    display: block;
+    max-height: 10%;
+    padding-bottom: 8px;
+}
+nav {
+    display: block;
+    text-align: center;
+}
+.menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'PrimeTime';
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.menu:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'PrimeTime';
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px #000000;
+}
+#title_image {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+article {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Sansation';
+}
+#header {
+    margin-top: 6%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #f1f1f1;
+}
+table {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    max-width: 100%;
+    text-decoration: none;
+}
+.td:hover {
+    box-shadow: 0px 5px 35px #f598a4;
+}
